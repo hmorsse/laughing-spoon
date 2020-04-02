@@ -1,0 +1,31 @@
+<DOCTYPE html!>
+<html>
+    <head>
+	      <title>Input form</title>
+	</head>
+<body>
+<p>Form</p>
+<form>
+    <input />
+<button type="number">This will submit the form.
+</button>	
+<div>
+     <h2>User Credential</h2>
+	 
+	 <input type="email" name="email" placeholder="email" required />
+	 <input type="password" name="password" placeholder="password" required />
+	 </div>
+	 <br/>
+	 
+	 <p>Input With Legend/fieldset Lnd Labels</p>
+	 <fieldset><legend>USER CREDENTIALS</legend>
+	 <label>User Name: <input type="text" name="username"/> </label>
+	 <label>Password: <input type="Password" name="Password"/> </label>
+	 </fieldset>
+	 <br/> <br/>
+	 <fieldset><legend>Adress</legend>
+	 <Label>Street: <input type="text" name="street"/> </label>
+	 <label>city: <input type="text" name="city"/> </label>
+</form>
+</body>
+</html>
